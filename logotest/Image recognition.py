@@ -1,7 +1,9 @@
 from time import sleep
+
+from PIL import Image
 from PIL import ImageGrab
 from selenium import webdriver
-from PIL import Image
+
 firefox = webdriver.Firefox()   # 打开浏览器
 firefox.maximize_window()
 url = "http://www.4399.com/flash/80972_4.htm"
